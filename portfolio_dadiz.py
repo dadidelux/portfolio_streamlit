@@ -54,7 +54,7 @@ def render_about():
 def render_projects():
     # Projects section
     st.write('## Projects')
-    st.write('Write about your personal projects and provide links to their GitHub repositories or live demos.')
+    st.write('Personal Project from Github.')
     st.write('## Dashboards')
     col1, col2, col3,col4,col5,col6,col7 = st.columns(7)
 
@@ -92,27 +92,43 @@ def render_projects():
 def render_articles():
     # Articles section
     st.write('## Articles')
-    st.write('Embed links or previews of your Medium portfolio articles.')
+    st.write('My Medium portfolio articles.')
     # YouTube video
     # st.write('### YouTube Video')
     # youtube_link = 'https://www.youtube.com/watch?v=N0lhoGcFbtU'
     # st.video(youtube_link)
-
-    # Medium article
-    st.write('### Medium Article')
     medium_link = 'https://medium.com/p/a3e4642fff09/edit'
-    st.markdown(f"[Click here to read the article]({medium_link})")
+    st.markdown(f"[Click here to read the article Practice Kmeans Clustering]({medium_link})")
 
 def render_students():
     # Students section
-    st.write('## Mentored Students')
-    st.write('List the students you have mentored and their accomplishments.')
+    st.write('## Mentored Individuals')
+    st.write('The List of my students whom I have worked with thier portfolio projects.')
+    medium_link = 'https://medium.com/@mwjteves/428d8d77d3a9'
+    st.markdown(f"[Integration of Python and Google Sheets in creating a cloud-based examination]({medium_link})")
+    medium_link = 'https://medium.com/@qjvbbeldeniza/heat-load-calculator-6c87fa946034'
+    st.markdown(f"[Python program for computing the size of Air-con to be used on household]({medium_link})")
+    medium_link = 'https://medium.com/@engelgatus/python-project-bc508abaa53f'
+    st.markdown(f"[Comparative Analysis of the Philippines Stock Exchange Index Data Against COVID-19 Announcement, Seasonality and Foreign Investors Using Python]({medium_link})")
+    medium_link = 'https://medium.com/@mfngubaton/heart-failure-prediction-dataset-8847a87e88c9'
+    st.markdown(f"[UNVEILING HEART FAILURE: EXPLORING KAGGLE’S DATASET FOR DETECTION ANALYSIS]({medium_link})")
+    medium_link = 'https://medium.com/@msalosarito/exploring-the-titanic-dataset-analyzing-passengers-demographics-and-survival-rates-97f5ec953cdc'
+    st.markdown(f"[Exploring the Titanic Dataset: Analyzing Passengers’ Demographics and Survival Rates]({medium_link})")
+    medium_link = 'https://medium.com/@mfslmamoso/from-data-to-delight-unraveling-wine-quality-patterns-with-machine-learning-classifiers-94885ac92760'
+    st.markdown(f"[From Data to Delight: Unraveling Wine Quality Patterns with Machine Learning Classifiers]({medium_link})")
+
 
 def render_experiences():
     # Students section
     st.write('## Past Experiences')
-    st.write('List the students you have mentored and their accomplishments.')
-
+    st.write('List past experiences.')
+    col1, col2,col3,col4= st.columns(4)
+    with col1:
+        img_1 = Image.open('hearnshobbies_logo.jpg')
+        st.image(img_1, width=100)
+    with col2:
+        st.write('Data Analyst/ Data Ingestion 2022 \nPresent - Part- Time')
+    
 
 if __name__ == '__main__':
     main()
