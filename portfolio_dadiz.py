@@ -127,7 +127,7 @@ def render_experiences():
         img_1 = Image.open('hearnshobbies_logo.jpg')
         st.image(img_1, width=100)
     with col2:
-        st.write('Data Analyst/ Data Ingestion 2022 \nPresent - Part- Time')
+        st.write('Data Analyst/Data Ingestion \n2022 Present - Part- Time')
     
 
 if __name__ == '__main__':
