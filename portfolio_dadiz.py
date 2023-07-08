@@ -99,6 +99,10 @@ def render_articles():
     # st.video(youtube_link)
     medium_link = 'https://medium.com/p/a3e4642fff09/edit'
     st.markdown(f"[Click here to read the article Practice Kmeans Clustering]({medium_link})")
+    medium_link = 'https://medium.com/@dabryan.devopstechnologiesph/a-review-on-the-google-data-analytics-professional-certificate-3963c8cf7bbc'
+    st.markdown(f"[A review on the Google Data Analytics Professional Certificate]({medium_link})")
+
+
 
 def render_students():
     # Students section
