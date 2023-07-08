@@ -56,7 +56,7 @@ def render_projects():
     st.write('## Projects')
     st.write('Personal Project from Github.')
     medium_link = 'https://github.com/cite-sirbryan'
-    st.markdown(f"[My Old Github)]({medium_link})")
+    st.markdown(f"[My Old Github ]({medium_link})")
     
     st.write('## Dashboards')
     col1, col2, col3,col4,col5,col6,col7 = st.columns(7)
