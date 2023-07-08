@@ -98,9 +98,11 @@ def render_articles():
     # youtube_link = 'https://www.youtube.com/watch?v=N0lhoGcFbtU'
     # st.video(youtube_link)
     medium_link = 'https://medium.com/p/a3e4642fff09/edit'
-    st.markdown(f"[Click here to read the article Practice Kmeans Clustering]({medium_link})")
+    st.markdown(f"[Click here to read the article Practice Kmeans Clustering (Under Construction July)]({medium_link})")
+    medium_link = 'https://medium.com/@dabryan.devopstechnologiesph/building-my-first-chatgpt-app-using-streamlit-and-gpt-4-7a324f4b2cf2'
+    st.markdown(f"[Building my first ChatGPT app using Streamlit and GPT-4 (June-28-2023)]({medium_link})")
     medium_link = 'https://medium.com/@dabryan.devopstechnologiesph/a-review-on-the-google-data-analytics-professional-certificate-3963c8cf7bbc'
-    st.markdown(f"[A review on the Google Data Analytics Professional Certificate]({medium_link})")
+    st.markdown(f"[A review on the Google Data Analytics Professional Certificate (Jan-14-2023]({medium_link})")
 
 
 
