@@ -1,7 +1,11 @@
 import streamlit as st
 from PIL import Image
 
-st.markdown(
+
+def main():
+    # Set page title and favicon
+    st.set_page_config(page_title='My Portfolio', page_icon=':clipboard:')
+    st.markdown(
         """
         <style>
          .css-1jc7ptx, 
@@ -16,10 +20,7 @@ st.markdown(
         </style>
         """,
         unsafe_allow_html=True,
-)
-def main():
-    # Set page title and favicon
-    st.set_page_config(page_title='My Portfolio', page_icon=':clipboard:')
+    )
 
     # Render the header section
     render_header()
