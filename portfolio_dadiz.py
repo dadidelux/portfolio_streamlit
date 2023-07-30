@@ -3,7 +3,18 @@ from PIL import Image
 def main():
     # Set page title and favicon
     st.set_page_config(page_title='My Portfolio', page_icon=':clipboard:')
-
+    st.markdown(
+        """
+        <style>
+         .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+         .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+         .viewerBadge_text__1JaDK {
+             display: none;
+         }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
     # Render the header section
     render_header()
 
@@ -37,11 +48,6 @@ def render_header():
             max-width: 300px;
             padding: 20px;
         }
-         .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
-         .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
-         .viewerBadge_text__1JaDK {
-         display: none;
-         }
         </style>
         """,
         unsafe_allow_html=True,
