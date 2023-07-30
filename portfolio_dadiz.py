@@ -44,7 +44,7 @@ def render_header():
          }
         </style>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
 
     # Header section
